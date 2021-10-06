@@ -1,0 +1,38 @@
+@media only screen and (max-width: 640px){
+    body{
+        height:100vh;
+        width:100vw;
+        background-color: #E5E5E5;
+        box-sizing: border-box;
+        margin: 0;
+        padding:0;
+        padding-bottom:50px;
+    }
+footer{
+    margin:0;
+    position:fixed;
+    bottom:0;
+    display:flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding:10px 0px;
+    Height:50px;
+    background-color: white;
+    padding-right:20px;
+}
+.icon{
+    padding: 0 10px;
+    margin-top:5px;
+    cursor: pointer;
+}
+.icon svg, .icon svg:active, .icon svg:focus{
+    transition:ease-in-out .5s;
+    color: #4C4079;
+    fill:currentColor;  
+}
+.icon svg:hover {
+    color: #01AE13;
+    fill:currentColor;  
+}
+}

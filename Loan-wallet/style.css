@@ -1,0 +1,227 @@
+@media only screen and (max-width: 1000px){
+    body{
+        position:relative;
+        background-color: rgba(249, 249, 255, 1);
+        box-sizing: border-box;
+        margin: 0;
+        padding:0;
+        padding-bottom:70px;
+    }
+    ::-webkit-scrollbar {
+        width: 0;  
+        background: transparent; 
+    }
+    .hero{
+        width:100%;
+        margin:0 0;
+        height: 194px;
+        background: linear-gradient(308.48deg, #5F22CB 61.48%, #F12DF5 137.01%);
+        border-radius: 0 0 15px 15px;
+        }
+     .back{
+        display:flex;
+        color:white;
+        padding:1rem;
+        cursor: pointer;
+        }
+    .back img{
+        margin-right:10px;
+    }
+    .back span{
+        font-size: 18px;
+        line-height: 35px;
+    }
+    .sub-hero button{
+        width: 97px;
+        height: 39px;
+        background: #5F22CB;
+        border-radius: 3px;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        border:none;
+        color:white;
+        font-weight: bold;
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .sub-hero button:hover{
+        opacity: 0.4;
+        cursor: pointer;
+    }
+    .sub-hero{
+        margin: 0 31px;
+        margin-top:45px;
+        width:auto;
+        height: 94px;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 8px rgba(18, 78, 233, 0.04);
+        border-radius: 5px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 31px;
+        align-items: center;
+    }
+    .text p{
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #6023CC;
+    margin-top:20px;
+    }
+    .text h3{
+        text-transform: uppercase;
+        color: #311169;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 20px;
+        margin-top:-5px;
+    }
+    main h5{
+        color: #7A83A2;;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 18px ;
+        margin-top:25px;
+        padding:31px;
+        padding-bottom:0;
+    }
+    .flex-card, .loan-cards{
+        display:flex;
+        flex-wrap: nowrap;
+        padding: 0 31px;
+        overflow-x: auto;
+    }
+    .card{
+        background: #FFFFFF;
+        border: 1px solid #7A83A2;
+        box-sizing: border-box;
+        box-shadow: 0px 10px 8px rgba(18, 78, 233, 0.04);
+        border-radius: 5px; 
+        width: 300px;
+        height: auto;
+        padding:20px;
+        margin-right:10px;
+    }
+    .btn{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 40px;
+        width: 216px;
+        padding:10px;
+        background: #C53B9F;
+        border-radius: 3px;
+        border:none;
+        color:white;
+        margin: 0 auto;
+    }
+    .btn:hover{
+        opacity:0.4;
+    }
+    .cards{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:5px 25px;
+        width:250px;
+    }
+    .cards p, .loan-card p{
+        color: #7A83A2;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 13px;
+        text-transform: uppercase;
+    }
+    .cards h3 .loan-card h3{
+        opacity:0.8;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 19px;
+    }
+    
+    .requests{
+        margin-top:5px;
+    }
+    .loan-card{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 290px;
+        height: auto;
+        box-sizing: border-box;
+        border-radius: 5px;
+        padding: 8px 20px;
+        margin-right:10px;
+        padding-bottom:5px;
+    }
+    .purple{
+        background: rgba(95, 34, 203, 0.1);
+        border: 1px solid #5F22CB; 
+    }
+    .orange{
+        background: rgba(211, 126, 10, 0.1);
+        border: 1px solid #D37E0A;
+    }
+    .color, .loan-card .color{
+        color:rgba(95, 34, 203, 1);
+    }
+    .transactions{
+        width: auto;
+        height: auto;
+        background: #FFFFFF;
+        box-shadow: 0px 10px 8px rgba(18, 78, 233, 0.04);
+        border-radius: 5px;
+        margin:5px 31px;
+        margin-top:20px;
+        padding:17px 20px;
+    }
+    .sub-text{
+        display:flex;
+        margin: 0 auto;
+        width:95%;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #E3ECF7;
+    }
+    .next-flex{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: right;
+    }
+    .next-flex img{
+        margin-left: 20px;
+    }
+    .next-flex h4{
+        color: rgba(1, 174, 19, 1);
+      
+    }
+    
+    .no-border{
+        border-bottom: none;
+    }
+    .sub-text p{
+        color: #7A83A2;
+        font-size: 14px;
+        line-height: 18px;
+        font-size: 14px;
+    }
+    .transaction-text p{
+        font-size: 10px;
+    line-height: 13px;
+    }
+    .transaction-text h4{
+        font-size: 14px;
+    line-height: 18px;
+    }
+    .sub-text a{
+        color:rgba(96, 35, 204, 1);
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .transaction-text .red{
+        color: #F21D11;
+    }
+    }
