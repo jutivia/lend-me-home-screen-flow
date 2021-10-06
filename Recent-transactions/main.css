@@ -78,6 +78,9 @@
         line-height: 20px;
         margin-top:-5px;
     }
+    main{
+        padding-top:30px;
+    }
     main h5{
         color: #7A83A2;;
         font-weight: normal;
@@ -87,83 +90,10 @@
         padding:31px;
         padding-bottom:0;
     }
-    .flex-card, .loan-cards{
-        display:flex;
-        flex-wrap: nowrap;
-        padding: 0 31px;
-        overflow-x: auto;
-    }
-    .card{
-        background: #FFFFFF;
-        border: 1px solid #7A83A2;
-        box-sizing: border-box;
-        box-shadow: 0px 10px 8px rgba(18, 78, 233, 0.04);
-        border-radius: 5px; 
-        width: 300px;
-        height: auto;
-        padding:20px;
-        margin-right:10px;
-    }
-    .btn{
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
-        height: 40px;
-        width: 216px;
-        padding:10px;
-        background: #C53B9F;
-        border-radius: 3px;
-        border:none;
-        color:white;
-        margin: 0 auto;
-    }
-    .btn:hover{
-        opacity:0.4;
-    }
-    .cards{
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap:5px 25px;
-        width:250px;
-    }
-    .cards p, .loan-card p{
-        color: #7A83A2;
-        font-weight: normal;
-        font-size: 10px;
-        line-height: 13px;
-        text-transform: uppercase;
-    }
-    .cards h3 .loan-card h3{
-        opacity:0.8;
-        font-weight: normal;
-        font-size: 15px;
-        line-height: 19px;
-    }
-    
     .requests{
         margin-top:5px;
     }
-    .loan-card{
-        display:flex;
-        justify-content: space-between;
-        align-items: center;
-        min-width: 290px;
-        height: auto;
-        box-sizing: border-box;
-        border-radius: 5px;
-        padding: 8px 20px;
-        margin-right:10px;
-        padding-bottom:5px;
-    }
-    .purple{
-        background: rgba(95, 34, 203, 0.1);
-        border: 1px solid #5F22CB; 
-    }
-    .orange{
-        background: rgba(211, 126, 10, 0.1);
-        border: 1px solid #D37E0A;
-    }
-    .color, .loan-card .color{
+    .color, .transaction-text .color{
         color:rgba(95, 34, 203, 1);
     }
     .transactions{
@@ -173,8 +103,8 @@
         box-shadow: 0px 10px 8px rgba(18, 78, 233, 0.04);
         border-radius: 5px;
         margin:5px 31px;
-        margin-top:20px;
-        padding:17px 20px;
+        margin-top:10px;
+        padding:5px 20px;
     }
     .sub-text{
         display:flex;
@@ -224,4 +154,4 @@
     .transaction-text .red{
         color: #F21D11;
     }
-    }
+}
