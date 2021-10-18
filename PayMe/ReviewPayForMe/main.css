@@ -1,0 +1,111 @@
+@media only screen and (max-width: 550px){
+    body{
+        background: url(/PayMe/images/image\ 1.png);
+        background-repeat: no-repeat;
+        background-size: 100vw 100%; 
+        min-height:100vh;
+        font-family: sans-serif;
+    }
+    main{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero{
+        margin:3rem 1rem;
+        display:flex;
+        align-items: center;
+    }
+    .hero h4{
+        width:auto;
+        margin:0 auto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 35px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .box{
+        background: white;
+        margin:auto auto;
+        width:75%;
+        min-height:350px;
+        height:auto;
+        border-radius: 15px;
+        padding:50px 30px;
+        padding-bottom:64px;
+    }
+    .next{
+        margin-top:40px;
+        width: 100%;
+        height: 60px;
+        left: 48px;
+        top: 466px;
+        background: #5F22CB;
+        border-radius: 5px;
+        border:none;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+.next:hover{
+    background: #6022cb85; 
+}
+.title{
+    text-align: center;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 25px;
+}
+.payFlex{
+    display:flex;
+    justify-content: space-between;
+    width:90%;
+    align-items: center;
+    margin:0 auto;
+    margin-bottom: 25px;
+    border-bottom:1px solid #E3ECF7;
+}
+.half h6{
+    font-weight: bold;
+    font-size: 9px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #7A83A2;
+}
+.half h4{
+color: #000000;
+opacity: 0.8;
+font-weight: normal;
+font-size: 15px;
+line-height: 19px;
+}
+.transaction-pin h4{
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: uppercase;
+    color: #4C4079;
+    margin-bottom:20px;
+}
+.password-input{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.password-input-item input{
+width: 69px;
+height: 58px;
+border: 1px solid #B3A9C5;
+box-sizing: border-box;
+border-radius: 5px;
+align-items: center;
+font-size:45px;
+color:#4C4079;
+padding:0 35%;
+}
+}

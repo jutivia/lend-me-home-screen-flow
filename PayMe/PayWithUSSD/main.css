@@ -1,0 +1,117 @@
+@media only screen and (max-width: 550px){
+    body{
+        background: url(/PayMe/images/image\ 1.png);
+        background-repeat: no-repeat;
+        background-size: 100vw 100%; 
+        min-height:100vh;
+        font-family: sans-serif;
+    }
+    main{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero{
+        margin:3rem 1rem;
+        display:flex;
+        align-items: center;
+    }
+    .hero h4{
+        width:auto;
+        margin:0 auto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 35px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .box{
+        background: white;
+        margin:auto auto;
+        width:75%;
+        min-height:350px;
+        height:auto;
+        border-radius: 15px;
+        padding:50px 30px;
+        padding-bottom:64px;
+    }
+    .next{
+        margin-top:40px;
+        width: 100%;
+        height: 60px;
+        left: 48px;
+        top: 466px;
+        background: #5F22CB;
+        border-radius: 5px;
+        border:none;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .next:hover{
+        background: #6022cb85; 
+    }
+    .polP{
+        text-align: center;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 18px;
+        color: #5C5C5C;
+    }
+    .polH4{
+        text-align: center;
+        color: #3A2A7A;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .ussd{
+        border-radius: 5px;
+        width: 100%;
+        height: 85px;
+        border: .5px solid #cacaca;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 20px;
+        background: transparent;
+        color:#5C5C5C;
+    }
+    .ussd svg{
+        fill:#5C5C5C;
+    }
+    .ussd:focus{
+        border:none;
+        background: #c53b9e13;
+        color:rgba(197, 59, 159, 1);
+        outline: none;
+    }
+    .ussd:focus svg{
+        fill:rgba(197, 59, 159, 1);
+    }
+    .newUssd{
+        margin:4rem auto;
+        width:75%;
+        height:60px;
+        border: 2px solid #C2A0FF;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background: transparent;
+        color:white; 
+        text-align: center;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 20px;
+    }
+    .newUssd:hover{
+        border: 2px solid rgb(158, 158, 158);
+        color:rgb(158, 158, 158); 
+    }
+}
