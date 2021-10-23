@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="back">
+        <img src="../images/back.svg" alt="" />
+        <span>Withdraw Funds</span>
+      </div>
+      <div class="sub-hero">
+        <div class="text">
+          <p>Please ensure the information you provide is accurate</p>
+        </div>
+        <div class="text">
+          <p>USE SAVED BANK ACCOUNT?</p>
+          <div class="check-box-flex">
+            <label class="label-name-2" for="text-field1">
+              <input id="text-field1" type="radio" name="name" />
+              <span class="formText">yes</span>
+            </label>
+            <label class="label-name-2" for="text-field2">
+              <input id="text-field2" type="radio" name="name" />
+              <span class="formText">no</span>
+            </label>
+          </div>
+          <br /><br />
+          <div class="form-input">
+            <label for="fundWith">Bank Name </label>
+            <select name="fundWith" id="fundWith">
+              <option value="volvo">Please select</option>
+              <option value="volvo">GTB</option>
+              <option value="saab">UBA</option>
+              <option value="mercedes">Access</option>
+              <option value="audi">Polaris</option>
+            </select>
+          </div>
+          <div class="form-input">
+            <label for="amount">Account Number</label>
+            <div class="amount-inner">
+              <input type="text" name="amount" id="amount" class="input-amt" />
+            </div>
+          </div>
+          <div class="form-input">
+            <label for="amount">Amount</label>
+            <div class="amount-inner">
+              <svg
+                width="13"
+                height="16"
+                viewBox="0 0 13 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.214844 5.73047H1.49316V0.294922H4.95215L6.71387 5.73047H8.66895V0.294922H11.1074V5.73047H12.3643V7.35254H11.1074V8.94238H12.3643V10.5645H11.1074V16H7.6377L5.87598 10.5645H3.94238V16H1.49316V10.5645H0.214844V8.94238H1.49316V7.35254H0.214844V5.73047ZM3.94238 8.94238H5.34961L4.84473 7.35254H3.94238V8.94238ZM7.7666 8.94238H8.66895V7.35254H7.24023L7.7666 8.94238ZM3.73828 3.9043L3.86719 5.73047H4.30762L3.73828 3.9043ZM8.8623 12.3047C8.84082 12.1185 8.79785 11.5384 8.7334 10.5645H8.29297L8.8623 12.3047Z"
+                  fill="#7A83A2"
+                />
+              </svg>
+              <input type="text" name="amount" id="amount" class="input-amt" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main"><button class="next">Next</button></div>
+    </header>
+  </body>
+</html>
