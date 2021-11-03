@@ -1,0 +1,88 @@
+@media only screen and (max-width: 550px){
+    body{
+        background: url(/PayMe/images/image\ 1.png);
+        background-repeat: no-repeat;
+        background-size: 100vw 100%; 
+        min-height:100vh;
+        font-family: sans-serif;
+    }
+    main{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero{
+        margin:3rem 1rem;
+        display:flex;
+        align-items: center;
+    }
+   .hero h4{
+        width:auto;
+        margin:0 auto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 26px;
+        line-height: 35px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    
+    .box{
+        background: #F9F9FF;
+        margin:auto auto;
+        width:70%;
+        min-height:450px;
+        height:auto;
+        border-radius: 15px;
+        padding:50px 30px;
+        padding-bottom:0px;
+        margin-bottom: 1rem;
+    }
+    .next{
+        margin-top:40px;
+        width: 100%;
+        height: 60px;
+        background: #683ab738;
+        border-radius: 5px;
+        border:none;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        color: rgba(242, 29, 17, 1);
+         margin-bottom:1.5rem;
+    }
+    .next:hover{
+        background: #6022cb85; 
+    }
+    .white{
+        color:white;
+    }
+   .sub-text {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e3ecf7;
+  }
+  .next-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sub-text h4{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+  }
+  .sub-text p{
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: capitalize;
+    color: #7A83A2;
+  }
+}

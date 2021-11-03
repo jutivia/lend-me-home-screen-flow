@@ -1,0 +1,208 @@
+@media only screen and (max-width: 550px) {
+  body {
+    background: url(/PayMe/images/image\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 100%;
+    min-height: 100vh;
+    font-family: sans-serif;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero {
+    margin: 3rem 1rem;
+    display: flex;
+    align-items: center;
+  }
+  .hero h4 {
+    width: auto;
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 35px;
+    text-align: center;
+    color: #ffffff;
+  }
+.box-shadow{
+  width: 85%; 
+  height: 668px;
+  border-radius: 15px;
+  background: #ffffff33;
+margin-bottom:3rem;
+ 
+}
+  .box {
+background: #F9F9FF;
+    margin: auto auto;
+    width: auto;
+    min-height: 350px;
+    height: auto;
+    border-radius: 15px;
+    padding: 50px 30px;
+    padding-bottom: 64px;
+    z-index:100;
+    margin-bottom:3rem;
+    transform: translate(0, 15px)
+  }
+  .next {
+    margin-top: 40px;
+    width: 100%;
+    height: 60px;
+    left: 48px;
+    top: 466px;
+    background: #5f22cb;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .next:hover {
+    background: #6022cb85;
+  }
+  .form-input {
+    border: 1px solid #b3a9c5;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 58px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+  }
+  .form-input input {
+    width: 90%;
+    margin: auto auto;
+    height: 90%;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    color: #4c4079;
+background: #F9F9FF;
+  }
+  .form-input input:focus,
+  select:focus {
+    outline: none;
+  }
+  .form-input label {
+    position: absolute;
+    top: -8px;
+    left: 15px;
+    z-index: 2;
+background: #F9F9FF;
+    padding: 2px 10px;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: uppercase;
+    color: #4c4079;
+  }
+  .amount {
+    padding-top: 2rem;
+  }
+  .amount-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto 20px;
+  }
+  .polH4 {
+    text-align: center;
+    color: #3a2a7a;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .box p:nth-child(1) {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #5c5c5c;
+  }
+  .card {
+    width: 100%;
+    margin: 0 auto;
+    background: #3c096c;
+    border-radius: 10px;
+    height: 146px;
+    margin-bottom: 3rem;
+  }
+  .lendMe {
+    margin: 2rem 2rem;
+    padding-top: 2rem;
+  }
+  .cardPin {
+    margin-top: 2.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .cardPin svg {
+    width: 60px;
+  }
+  .circles {
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+  .circles input {
+    width: 20px;
+    height: 20px;
+  }
+  input[type="radio"] {
+    display: none;
+  }
+  input[type="radio"] + label {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  input[type="radio"] + label span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: -1px 4px 0 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.33);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    line-height: 22px;
+  }
+  input[type="radio"] + label span img {
+    opacity: 0;
+    transition: all 0.3s ease;
+    padding-bottom:1.5px;
+    height:10px;
+    width:10px;
+  }
+  .yellow + label span {
+    background: #faa307;
+  }
+  .green + label span {
+    background: #60d394;
+  }
+  .red + label span {
+    background: #e26d5a;
+  }
+  .purple + label span {
+    background: #3c096c;
+  }
+  input[type="radio"]:checked + label span img {
+    opacity: 1;
+  }
+}

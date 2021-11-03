@@ -1,0 +1,214 @@
+@media only screen and (max-width: 6400px) {
+  body {
+    position: relative;
+    background-color: rgba(249, 249, 255, 1);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 70px;
+  }
+  ::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+  .hero {
+    width: 100%;
+    margin: 0 0;
+    height: 194px;
+    background: linear-gradient(308.48deg, #5f22cb 61.48%, #f12df5 137.01%);
+    border-radius: 0 0 15px 15px;
+  }
+  .back {
+    display: flex;
+    color: white;
+    padding: 1rem;
+    cursor: pointer;
+  }
+  .back img {
+    margin-right: 10px;
+  }
+
+  .sub-hero {
+    margin: 0 31px;
+    margin-top: 45px;
+    width: auto;
+    height: 94px;
+    background: #ffffff;
+    box-shadow: 0px 10px 8px rgba(18, 78, 233, 0.04);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 31px;
+    align-items: center;
+  }
+  .text p {
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #6023cc;
+    margin-top: 20px;
+  }
+  .text h3 {
+    text-transform: uppercase;
+    color: #311169;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: -5px;
+  }
+  main {
+    margin-top: 5rem;
+    padding-top: 30px;
+  }
+  main h5 {
+    color: #7a83a2;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    padding: 31px;
+    padding-top:20px;
+    padding-bottom: 0;
+  }
+  .requests {
+    margin-top: 5px;
+  }
+  .color,
+  .transaction-text .color {
+    color: rgba(95, 34, 203, 1);
+  }
+  .transactions {
+    width: auto;
+    min-height: 400px;
+    height: auto;
+    background: #ffffff;
+    box-shadow: 0px 10px 8px rgba(18, 78, 233, 0.04);
+    border-radius: 5px;
+    margin: 5px 31px;
+    margin-top: 10px;
+    padding: 5px 20px;
+  }
+  .sub-text {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #e3ecf7;
+  }
+  .next-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+  }
+  .next-flex img {
+    margin-left: 20px;
+  }
+  .next-flex h4 {
+    color: rgba(1, 174, 19, 1);
+  }
+
+  .sub-text:nth-last-child(1) {
+    border-bottom: none;
+  }
+  .sub-text p {
+    color: #7a83a2;
+    font-size: 14px;
+    line-height: 18px;
+    font-size: 14px;
+  }
+  .transaction-text p {
+    font-size: 10px;
+    line-height: 13px;
+  }
+  .transaction-text h4 {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .sub-text a {
+    color: rgba(96, 35, 204, 1);
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .transaction-text .red {
+    color: #f21d11;
+  }
+  .card {
+    width: 90%;
+    margin: 0 auto;
+    background: #3c096c;
+    border-radius: 10px;
+    height: 100%;
+    padding-bottom: 2rem;
+    color: white;
+  }
+  .lendMe {
+    margin: 2rem 2rem;
+    padding-top: 2rem;
+  }
+  .cardPin {
+    margin-top: 1rem;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    margin-left: -5px;
+  }
+  .cardPin svg {
+    width: 60px;
+  }
+  .cardText {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .rhs,
+  .lhs {
+    display: flex;
+    flex-direction: column;
+  }
+  .cardText p {
+    font-size: 8.79284px;
+    line-height: 12px;
+    letter-spacing: 0.351714px;
+    text-transform: uppercase;
+    color: #f9f9ff;
+    opacity: 0.8;
+  }
+  .rhs h4 {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: right;
+    letter-spacing: 0.0710573px;
+    margin-top: 5px;
+    color: #ffffff;
+  }
+  .second {
+    align-items: flex-start;
+  }
+  .cardBtn {
+    width: 97px;
+    height: 39px;
+    background: #5f22cb;
+    border-radius: 3px;
+    border: none;
+    color: white;
+  }
+  .cardText:nth-child(3) {
+    align-items: center;
+  }
+  .view {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.0710573px;
+    color: #303030;
+    opacity: 0.34;
+    margin-top:1rem;
+  }
+}
